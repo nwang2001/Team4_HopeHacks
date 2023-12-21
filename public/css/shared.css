@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    background-color: black;
+    height: 6em;
+}
+
+.brand-logo {
+    margin-top: 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand-logo img {
+    height: 75px; 
+}
+nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 1.5em; */
+}
+nav ul a {
+    color: #D69723;
+    font-size: 1.25em;
+    padding: 15px 20px;
+}
+
+nav ul li.active {
+    background-color: rgba(248, 251, 249, 0.194);
+}
+
+nav ul li:hover {
+    background-color: rgba(250, 249, 249, 0.541);
+}
+
+.page-footer {
+    background-color: black;
+    color: #e8b352;
+}
+
+.page-footer ul {
+    display:flex;
+    justify-content: space-around;
+}
+.page-footer ul a {
+    color: #e8b75d;
+    text-decoration: none;
+}
+.page-footer .container {
+    color: #e9cb92;
+}
