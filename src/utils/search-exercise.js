@@ -11,7 +11,7 @@ const search = (muscle, callback) => {
     if (error) {
       callback("Unable to connect to the server.", undefined);
     } else if (body.length === 0) {
-      callback("Unable to find movie. Try another search.", undefined);
+      callback("Unable to find exercises. Try another search.", undefined);
     } else {
       callback(undefined, {
         exercises: body,
