@@ -1,7 +1,6 @@
 require('dotenv').config();
 const fs = require('fs');
 const apiKey = process.env.API_KEY;
-console.log(apiKey);
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
@@ -46,8 +45,8 @@ app.get('/profile', (req, res) => {
     });
 });
 
-// Start the server on port 3000
-const port = 3000;
+// Start the server on port 4400
+const port = 4400;
 app.listen(port, () => {
     console.log(`Server is up on http://localhost:${port}/`);
 })
